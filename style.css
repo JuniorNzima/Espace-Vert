@@ -1,0 +1,761 @@
+@font-face
+{
+    font-family : "rajdhani" ;
+    src : url("police/rajdhani/Rajdhani-Regular.ttf") ;
+}
+
+@font-face
+{
+    font-family : "dancing" ;
+    src : url("police/dancing/static/DancingScript-Regular.ttf") ;
+}
+
+*
+{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+body
+{
+    font-family : rajdhani , sans-serif ;
+}
+
+h1
+{
+    font-family : dancing ;
+}
+
+h2
+{
+    text-align : center ;
+    font-size : 2.5em ;
+    color : green ;
+    font-family : dancing ;
+}
+
+h3
+{
+    text-align : center ;
+    font-size : 2em ;
+    color : orange ;
+    font-family : dancing ;
+}
+
+.trait
+{
+    height : 2px ;
+    width : 75% ;
+    margin : auto ;
+    background : linear-gradient(to right , orange , green) ;
+}
+
+
+
+/* ************************************************************* HEADER *********************************************************** */
+
+
+header
+{
+    /* border : 1px solid red ; */
+    background : linear-gradient(to right , orange , green) ;
+    height : 90px ;
+    display : flex ;
+    align-items : center ;
+}
+
+#div_header
+{
+    display : flex ;
+    justify-content : space-between ;
+    align-items : center ;
+    width : 80% ;
+    margin : auto ;
+    /* border : 1px solid blue ; */
+}
+
+nav
+{
+    /* border : 1px solid hotpink ; */
+    width : 50% ;
+}
+
+nav ul
+{
+    list-style-type : none ;
+    text-transform : uppercase ;
+    display : flex ;
+    justify-content : space-between ;
+}
+
+nav ul li a
+{
+    text-decoration : none ;
+    color : white ;
+}
+
+nav ul li a:hover 
+{
+    text-decoration : overline ;
+}
+
+
+
+/* ***************************************************** HERO_HEADER ********************************************************* */
+
+
+#hero_header
+{
+    height : 85vh ;
+
+    -webkit-animation-name: diaporama ;
+    -webkit-animation-duration: 45s ;
+    -webkit-animation-timing-function : linear ;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: normal ;
+
+    -moz-animation-name: diaporama ;
+    -moz-animation-duration: 45s ;
+    -moz-animation-timing-function : linear ;
+    -moz-animation-iteration-count: infinite ;
+    -moz-animation-direction: normal ;
+
+    -o-animation-name: diaporama ;
+    -o-animation-duration: 45s ;
+    -o-animation-timing-function : linear ;
+    -o-animation-iteration-count: infinite ;
+    -o-animation-direction: normal ;
+
+    animation-name: diaporama ;
+    animation-duration: 45s ;
+    animation-timing-function : linear ;
+    animation-iteration-count: infinite ;
+    animation-direction: normal ;
+}
+
+@-webkit-keyframes diaporama
+{
+    0%
+    {
+        background-image : url("Images/nature_animaux/road-1072821_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    16.5%
+    {
+        background-image : url("Images/nature_animaux/road-1072823_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    33%
+    {
+        background-image : url("Images/nature_animaux/poppies-174276_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    49.5%
+    {
+        background-image : url("Images/nature_animaux/lone-tree-1934897_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    66%
+    {
+        background-image : url("Images/nature_animaux/landscape-1192669_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    82.5%
+    {
+        background-image : url("Images/nature_animaux/avenue-2215317_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    100%
+    {
+        background-image : url("Images/nature_animaux/tree-3097419_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+}
+
+@-moz-keyframes diaporama
+{
+    0%
+    {
+        background-image : url("Images/nature_animaux/road-1072821_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    16.5%
+    {
+        background-image : url("Images/nature_animaux/road-1072823_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    33%
+    {
+        background-image : url("Images/nature_animaux/poppies-174276_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    49.5%
+    {
+        background-image : url("Images/nature_animaux/lone-tree-1934897_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    66%
+    {
+        background-image : url("Images/nature_animaux/landscape-1192669_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    82.5%
+    {
+        background-image : url("Images/nature_animaux/avenue-2215317_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    100%
+    {
+        background-image : url("Images/nature_animaux/tree-3097419_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+ 
+}
+
+@-o-keyframes diaporama
+{
+    0%
+    {
+        background-image : url("Images/nature_animaux/road-1072821_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    16.5%
+    {
+        background-image : url("Images/nature_animaux/road-1072823_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    33%
+    {
+        background-image : url("Images/nature_animaux/poppies-174276_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    49.5%
+    {
+        background-image : url("Images/nature_animaux/lone-tree-1934897_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    66%
+    {
+        background-image : url("Images/nature_animaux/landscape-1192669_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    82.5%
+    {
+        background-image : url("Images/nature_animaux/avenue-2215317_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    100%
+    {
+        background-image : url("Images/nature_animaux/tree-3097419_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+}
+
+@keyframes diaporama
+{
+    0%
+    {
+        background-image : url("Images/nature_animaux/poppies-174276_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    16.5%
+    {
+        background-image : url("Images/nature_animaux/road-1072823_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    33%
+    {
+        background-image : url("Images/nature_animaux/road-1072821_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    49.5%
+    {
+        background-image : url("Images/nature_animaux/lone-tree-1934897_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    66%
+    {
+        background-image : url("Images/nature_animaux/landscape-1192669_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    82.5%
+    {
+        background-image : url("Images/nature_animaux/avenue-2215317_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+    100%
+    {
+        background-image : url("Images/nature_animaux/tree-3097419_640.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : 100% 100% ;
+    }
+
+}
+
+
+
+/* *************************************************************** MAIN ****************************************************** */
+
+
+main
+{
+    /* border : 2px solid black ; */
+    width : 90% ;
+    margin : auto ; 
+}
+
+#importance p , #importance ul
+{
+    width : 70% ;
+    margin : auto ;
+    text-align : justify ;
+}
+
+#utilisation .intro
+{
+    width : 70% ;
+    margin : auto ;
+    text-align : justify ;
+}
+
+
+/* ****************************************************** DIV_LEGUME ****************************************************** */
+
+
+
+#div_legume
+{
+    display : flex ;
+    justify-content : space-evenly ;
+    align-items : center ;
+}
+
+.container
+{
+    /* border : 5px solid blue ; */
+    width : 43% ;
+    overflow : hidden ;
+}
+
+#div_legume p 
+{
+    width : 30% ;
+}
+
+#legume
+{
+    display : flex ;
+
+    -webkit-animation-name: diapo ;
+    -webkit-animation-duration: 45s ;
+    -webkit-animation-timing-function : linear ;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: normal ;
+
+    -moz-animation-name: diapo ;
+    -moz-animation-duration: 45s ;
+    -moz-animation-timing-function : linear ;
+    -moz-animation-iteration-count: infinite ;
+    -moz-animation-direction: normal ;
+
+    -o-animation-name: diapo ;
+    -o-animation-duration: 45s ;
+    -o-animation-timing-function : linear ;
+    -o-animation-iteration-count: infinite ;
+    -o-animation-direction: normal ;
+
+    animation-name: diapo ;
+    animation-duration: 45s ;
+    animation-timing-function : linear ;
+    animation-iteration-count: infinite ;
+    animation-direction : normal ; 
+}
+
+@-webkit-keyframes diapo {
+    0%
+    {
+        transform : translateX(-0px) ;
+    }
+
+    16.5%
+    {
+        transform : translateX(-640px) ;
+    }
+
+    33.1%
+    {
+        transform : translateX(-1280px) ;
+    }
+
+    49.6%
+    {
+        transform : translateX(-1920px) ;
+    }
+
+    66.1%
+    {
+        transform : translateX(-2560px) ;
+    }
+
+    82.6%
+    {
+        transform : translateX(-3200px) ;
+    }
+
+    100%
+    {
+        transform : translateX(-0px) ;
+    }
+
+}
+
+@-moz-keyframes diapo {
+    0%
+    {
+        transform : translateX(-0px) ;
+    }
+
+    16.5%
+    {
+        transform : translateX(-640px) ;
+    }
+
+    33.1%
+    {
+        transform : translateX(-1280px) ;
+    }
+
+    49.6%
+    {
+        transform : translateX(-1920px) ;
+    }
+
+    66.1%
+    {
+        transform : translateX(-2560px) ;
+    }
+
+    82.6%
+    {
+        transform : translateX(-3200px) ;
+    }
+
+    100%
+    {
+        transform : translateX(-0px) ;
+    }
+
+}
+
+@-o-keyframes diapo {
+    0%
+    {
+        transform : translateX(-0px) ;
+    }
+
+    16.5%
+    {
+        transform : translateX(-640px) ;
+    }
+
+    33.1%
+    {
+        transform : translateX(-1280px) ;
+    }
+
+    49.6%
+    {
+        transform : translateX(-1920px) ;
+    }
+
+    66.1%
+    {
+        transform : translateX(-2560px) ;
+    }
+
+    82.6%
+    {
+        transform : translateX(-3200px) ;
+    }
+
+    100%
+    {
+        transform : translateX(-0px) ;
+    }
+
+}
+
+@keyframes diapo {
+    0%
+    {
+        transform : translateX(-0px) ;
+    }
+
+    16.5%
+    {
+        transform : translateX(-640px) ;
+    }
+
+    33.1%
+    {
+        transform : translateX(-1280px) ;
+    }
+
+    49.6%
+    {
+        transform : translateX(-1920px) ;
+    }
+
+    66.1%
+    {
+        transform : translateX(-2560px) ;
+    }
+
+    82.6%
+    {
+        transform : translateX(-3200px) ;
+    }
+
+    100%
+    {
+        transform : translateX(-0px) ;
+    }
+
+}
+
+
+/* ************************************************************* DIV_fruit****************************************************** */
+
+
+#div_fruit
+{
+    display : flex ;
+    justify-content : space-evenly ;
+    align-items : center ;
+}
+
+#div_fruit p 
+{
+    width : 30% ;
+}
+
+#fruit
+{
+    display : flex ;
+
+    -webkit-animation-name: diapo ;
+    -webkit-animation-duration: 45s ;
+    -webkit-animation-timing-function : linear ;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: normal ;
+
+    -moz-animation-name: diapo ;
+    -moz-animation-duration: 45s ;
+    -moz-animation-timing-function : linear ;
+    -moz-animation-iteration-count: infinite ;
+    -moz-animation-direction: normal ;
+
+    -o-animation-name: diapo ;
+    -o-animation-duration: 45s ;
+    -o-animation-timing-function : linear ;
+    -o-animation-iteration-count: infinite ;
+    -o-animation-direction: normal ;
+
+    animation-name: diapo ;
+    animation-duration: 45s ;
+    animation-timing-function : linear ;
+    animation-iteration-count: infinite ;
+    animation-direction : normal ; 
+}
+
+
+/* **************************************************** DIV_REMEDE ****************************************************** */
+
+
+#div_remede
+{
+    display : flex ;
+    justify-content : space-evenly ;
+    align-items : center ;
+}
+
+#div_remede p 
+{
+    width : 30% ;
+}
+
+#remede
+{
+    display : flex ;
+
+    -webkit-animation-name: diapo ;
+    -webkit-animation-duration: 45s ;
+    -webkit-animation-timing-function : linear ;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: normal ;
+
+    -moz-animation-name: diapo ;
+    -moz-animation-duration: 45s ;
+    -moz-animation-timing-function : linear ;
+    -moz-animation-iteration-count: infinite ;
+    -moz-animation-direction: normal ;
+
+    -o-animation-name: diapo ;
+    -o-animation-duration: 45s ;
+    -o-animation-timing-function : linear ;
+    -o-animation-iteration-count: infinite ;
+    -o-animation-direction: normal ;
+
+    animation-name: diapo ;
+    animation-duration: 45s ;
+    animation-timing-function : linear ;
+    animation-iteration-count: infinite ;
+    animation-direction : normal ; 
+}
+
+
+
+/* *********************************************************** CONCLUSION ********************************************** */
+
+#conclusion p
+{
+    width : 70% ;
+    margin : auto ;
+    text-align : justify ;
+}
+
+figure
+{
+    width : 47% ;
+    margin : auto ;
+}
+
+
+
+/* ************************************************** FOOTER ************************************************************* */
+
+
+footer
+{
+    background-color : #191717e3 ;
+    color : white ;
+}
+
+form
+{
+    width : 40% ;
+    margin : auto ;
+    display : flex ;
+    flex-direction : column ;
+}
+
+input , textarea
+{
+    border : none ;
+    padding : 15px 10px ;
+    margin : 5px 0 ;
+    font-size : 1.2em ;
+    border-radius : 8px ;
+    outline : none ;
+    resize : none ;
+}
+
+textarea 
+{
+    height: 120px ;
+}
+
+#bouton_envoyer
+{
+    width : 30% ;
+    margin : 5px auto ;
+}
+
+#bouton_envoyer:hover
+{
+    background : linear-gradient(to right , orange , green) ;
+    color : #FFFAE1 ;
+    cursor : pointer ;
+    transition : 0.3s ease-in-out ;
+}
+
+#copyright_et_icons
+{
+    display : flex ;
+    justify-content : space-between ;
+    width : 60% ;
+    margin : auto ;
+}
+
+#icons
+{
+    display : flex ;
+    justify-content : space-evenly ;
+    width : 50% ;
+}
+
+#icons a
+{
+    color : #FFFAE1 ;
+    font-size : 1.3em ;
+}
+
+#icons a:hover
+{
+    opacity : 0.5 ;
+    transform : scale(1.5) ;
+    transition : 0.2s ease-in-out ;
+}
